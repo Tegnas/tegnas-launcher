@@ -1,6 +1,0 @@
-{
-  "version": "1.0.1",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "BB4147AA24412D52C70AAE228F14DFB73554B62E6EBE6264CDE2A27181A37521",
-  "notes": "v1.0.1: Launcher-Verhalten wird korrekt gespeichert; Sprachmeldung erscheint nur bei echter Sprachaenderung."
-}
