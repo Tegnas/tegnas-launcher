@@ -1,0 +1,6 @@
+{
+  "version": "1.0.3",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "FDE07575AAD9B525AB876D5015D3ACE322229EFF2EC238381F5CE35136958E91",
+  "notes": "v1.0.3: Dawn-Altlasten entfernt; Mod-Updates werden korrekt angezeigt; frei waehlbares Instanzverzeichnis; mehrere vollstaendige Vote-URLs speicherbar."
+}
