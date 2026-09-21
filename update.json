@@ -1,0 +1,6 @@
+{
+  "version": "1.0.2",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "AAF3CFD01B9448085A63D6207F9B9329C50AE19CA4A50FD9341835FFF11498A6",
+  "notes": "v1.0.2: Mod-Update-Details per Klick; Update-Hinweis bei Mods; Vote-Spielername bei Neuinstallation leer."
+}
