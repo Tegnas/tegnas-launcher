@@ -1,0 +1,6 @@
+{
+  "version": "1.0.6",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "3ED18C5937342150B402AC580085865E9B8BDAF7AA3B0EA80FB11A90A39413BF",
+  "notes": "v1.0.6: Update-Neustart bei benutzerdefinierten Installationspfaden verbessert; Pausemenue fuer unterschiedliche Aufloesungen, GUI-Skalierungen und Multiplayer-Menues korrigiert."
+}
