@@ -1,0 +1,6 @@
+{
+  "version": "1.0.4",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "75503965702521CE3E8294686996B283D91CCC81EC106111AA32FD7658189510",
+  "notes": "v1.0.4: Tegnas-Farbschema fuer das HUD-Menue; TEST194-HUD-Module und Vote-Verbesserungen; Stabilitaets- und Bedienungsverbesserungen."
+}
