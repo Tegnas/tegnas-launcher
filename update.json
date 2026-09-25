@@ -1,6 +1,0 @@
-{
-  "version": "1.0.5",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "975E3EC0581861D0E5602704E441023A59698835A702D1B2C06E014BD96CB15B",
-  "notes": "v1.0.5: In-Game Account Switcher intern verwaltet und aus der sichtbaren Mod-Liste entfernt; Update-Schleife behoben; Stabilitaetsverbesserungen."
-}
