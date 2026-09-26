@@ -1,0 +1,6 @@
+{
+  "version": "1.0.7",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "581C8F4FDFDDE360D6F8F70BDE3015F4495CA98284ED2B43512EDC4489962278",
+  "notes": "v1.0.7: Aktualisierter Tegnas Launcher- und Client-Stand mit den aktuellen Stabilitaets- und HUD-Verbesserungen."
+}
