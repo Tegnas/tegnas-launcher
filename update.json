@@ -1,6 +1,0 @@
-{
-  "version": "1.0.9",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher-Update.exe",
-  "sha256": "C36A98B602E1660B0E01B1B32FCB4266AB1895EB48257D6F7077A79E89D8DA6D",
-  "notes": "v1.0.9: Update-Download und Installation laufen jetzt gemeinsam im Tegnas-Setupfenster mit sichtbarem Fortschritt."
-}
