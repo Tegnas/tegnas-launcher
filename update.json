@@ -1,6 +1,0 @@
-{
-  "version": "1.0.8",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "3E6A57C8473B7C61F0C60CAED1DD8991D4EE85DCB33E94D1CA67E89CA93AEAA8",
-  "notes": "v1.0.8: Sichtbarer Update-Fortschritt mit Prozent, MB-Anzeige und Installationsstatus sowie aktuelle Client- und HUD-Verbesserungen."
-}
