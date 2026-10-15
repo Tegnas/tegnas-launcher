@@ -1,0 +1,6 @@
+{
+  "version": "1.1.2",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "E4FDF451F3C174CCFA91B1E10DF2EA2A9CF8CB637CFE42F485D32D3D1DB9E237",
+  "notes": "Launcher v1.1.2 / Client v2.0.1: Multiversion-Release mit Tegnas Legacy für 1.21.x und Tegnas Modern für Minecraft 26.3 / Java 25."
+}
