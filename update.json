@@ -1,0 +1,6 @@
+{
+  "version": "1.1.3",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "956F1E0E78314CDA6BA953DD0D9F0504D1FC99D3B32DDCFB6628F8CD6F52414F",
+  "notes": "Launcher v1.1.3-beta / Client v2.0.2-beta: Online-Status an laufende Minecraft-Prozesse gebunden; Profilansicht verbessert und Mod-Metadaten zentral gespeichert."
+}
