@@ -1,6 +1,0 @@
-{
-  "version": "1.1.6",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "2C9AC5F352867FDAD1E2DB4C3625B575D199CFB735CF92D7D266D5D30285D35B",
-  "notes": "Launcher v1.1.6-beta / Client v2.0.3-beta: Biom-Sprache im Koordinaten-Feature fuer Minecraft 26.3 korrigiert; neuere passende Fabric API bleibt erhalten."
-}
