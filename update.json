@@ -1,0 +1,6 @@
+{
+  "version": "1.1.5",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "D8753B7EE59BD6A519B5BAF3C888287D7F21D64BB2DF17AA6CA2497F6A525709",
+  "notes": "Launcher v1.1.5-beta / Client v2.0.3-beta: Neuere passende Fabric API bleibt beim Start erhalten; keine wiederholte Rueckstufung auf die mitgelieferte Version."
+}
