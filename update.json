@@ -1,0 +1,6 @@
+{
+  "version": "1.1.4",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "100C88B8F158B8A16E9E78FF1683B161EE413EB4C85B4C3E928661C1CAF650D9",
+  "notes": "Launcher v1.1.4-beta / Client v2.0.3-beta: Freigabe fuer Minecraft 1.21.8, 1.21.10, 1.21.11 und 26.3; Tegnas-Menue, Accountwechsel, MSG Chat und HUD; Windows-Startfix und eigene Client-Fenstertitel."
+}
