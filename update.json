@@ -1,6 +1,0 @@
-{
-  "version": "1.1.7",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "96115536791F337B353BEAC185D6084A80DF176304DA974C1FE21A14E2B13A56",
-  "notes": "Launcher v1.1.7-beta / Client v2.0.3-beta: Separates Update-Fenster erscheint nun auch beim Oeffnen des Launchers, sobald eine neuere Version verfuegbar ist; Biom-Sprachwechsel und Fabric-API-Fix enthalten."
-}
