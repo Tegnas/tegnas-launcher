@@ -1,34 +1,196 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
+
+<html class="dark scroll-smooth" lang="de">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0d0b14">
-<title>Tegnas – Dein Spiel. Dein Tegnas.</title>
-<meta name="description" content="Dein Minecraft, dein Setup. Tegnas Launcher und Client für Windows: Profile, Mods, Skins und eigene Ingame-Funktionen an einem Ort.">
-<meta property="og:title" content="Tegnas – Dein Spiel. Dein Tegnas."><meta property="og:description" content="Entdecke Tegnas Launcher und Client für Minecraft: Java Edition."><meta property="og:image" content="https://tegnas.github.io/tegnas-launcher/tegnas-client.webp"><meta property="og:type" content="website">
-<link rel="canonical" href="https://tegnas.github.io/tegnas-launcher/"><link rel="icon" href="tg-logo.webp" type="image/webp"><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
-</head>
-<body>
-<a class="skip" href="#main">Zum Inhalt</a>
-<header><nav class="wrap navigation" aria-label="Hauptnavigation"><a class="brand" href="#top" aria-label="Tegnas Startseite"><img src="tg-logo.webp" alt="" width="42" height="42"><span>TEGNAS<small>LAUNCHER & CLIENT</small></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">☰ <span>Menü</span></button><div class="nav-links" id="nav-links"><a href="#client">Client</a><a href="#launcher">Launcher</a><a href="#updates">Updates</a><a class="nav-download" href="#download">Herunterladen ↗</a></div></nav></header>
-<main id="main">
-<section class="hero" id="top" aria-labelledby="hero-title"><img class="hero-world" src="assets/cherry-valley.png" alt="" width="2172" height="724" fetchpriority="high"><div class="hero-shade"></div><div class="wrap hero-content"><p class="eyebrow"><i class="dot" aria-hidden="true"></i> FÜR MINECRAFT: JAVA EDITION</p><h1 id="hero-title">Dein Spiel.<br><span>Dein Tegnas.</span></h1><p class="lead">Mach Minecraft zu deinem Minecraft. Mit deinen Profilen, deinen Mods und einem Client, der zu dir passt.</p><div class="actions"><a class="button primary" data-download href="https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.3-beta/TegnasLauncher.exe"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>Für Windows herunterladen</a><a class="button quiet" href="#client">Client entdecken ↓</a></div><div class="meta"><span data-version>v1.1.3-beta</span><span>Windows 10 & 11</span><span>Client inklusive</span></div></div><div class="wrap hero-bottom"><span>ZOCKEN. CHILLEN. TEGNAS.</span><a href="#client">Entdecke dein Setup ↓</a></div></section>
-<div class="trust"><div class="wrap"><span>✓ Offizieller Microsoft-Login</span><span>◈ Eigene Profile & Instanzen</span><span>↻ Updates direkt im Launcher</span></div></div>
-<section class="wrap section" id="client" aria-labelledby="client-title"><div class="section-heading"><div><p class="eyebrow violet">DER TEGNAS CLIENT</p><h2 id="client-title">Mehr als<br>nur Starten.</h2></div><div class="intro"><p>Dein HUD, dein Chat, dein Look. Tegnas ergänzt Minecraft um praktische Funktionen und eine Oberfläche, die du selbst gestaltest.</p><p class="compat"><i class="dot" aria-hidden="true"></i> Fabric · Minecraft 1.21.10 & 26.3</p></div></div>
-<div class="client-layout"><div class="client-controls"><div class="tabs" role="tablist" aria-label="Client-Funktionen" aria-orientation="vertical">
-<button id="tab-hud" data-tab="hud" role="tab" aria-selected="true" aria-controls="panel-hud" type="button"><span class="number">01</span><span><strong>Alles im Blick.</strong><small>Koordinaten und wichtige HUD-Anzeigen direkt im Spiel.</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-<button id="tab-chat" data-tab="chat" role="tab" aria-selected="false" aria-controls="panel-chat" tabindex="-1" type="button"><span class="number">02</span><span><strong>Weniger suchen.</strong><small>Chat-Suche und integrierter MSG Chat für mehr Übersicht.</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-<button id="tab-design" data-tab="design" role="tab" aria-selected="false" aria-controls="panel-design" tabindex="-1" type="button"><span class="number">03</span><span><strong>Mehr dein Stil.</strong><small>Dunkles Menü und deine eigene Akzentfarbe.</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-</div><a class="text-link" href="#download">Mit Tegnas loslegen →</a></div>
-<div class="game-preview" id="game-preview"><div class="window-bar"><span><img src="tg-logo.webp" width="20" height="20" alt=""> TEGNAS CLIENT</span><small>Funktionsvorschau</small></div><div class="game-scene"><img src="assets/cherry-valley.png" alt="Minecraft-Motiv mit Kirschblüten und einem Flusstal" width="2172" height="724" loading="lazy"><span class="crosshair" aria-hidden="true">+</span>
-<div class="preview-panel" id="panel-hud" role="tabpanel" aria-labelledby="tab-hud"><div class="coordinates"><small>KOORDINATEN</small><strong><b>X</b> 128 <b>Y</b> 64 <b>Z</b> −256</strong><span>Kirschblütenhain</span></div><div class="hud-bottom" aria-hidden="true"><div class="hearts">♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥</div><div class="hotbar"><span>⛏</span><span>▣</span><span>✦</span><span>▤</span><span>◈</span><span></span><span></span><span></span><span></span></div></div></div>
-<div class="preview-panel" id="panel-chat" role="tabpanel" aria-labelledby="tab-chat" hidden><div class="chat-demo"><div><strong>Dein Chat. Übersichtlich.</strong><small>MSG CHAT</small></div><p><b>Tegnas</b> Bereit für die nächste Runde?</p><p><b>Du</b> Bin dabei. Bis gleich!</p><span class="chat-search">⌕ &nbsp; Nachrichten durchsuchen …</span></div></div>
-<div class="preview-panel" id="panel-design" role="tabpanel" aria-labelledby="tab-design" hidden><div class="design-demo"><small>TEGNAS EINSTELLUNGEN</small><h3>Dein Menü.<br>Deine Farbe.</h3><div class="design-rule"></div><p>Wähle eine Farbe für die Vorschau.</p><div class="colors" role="group" aria-label="Akzentfarbe der Vorschau"><button class="purple" data-color="#b16aff" aria-label="Lila" aria-pressed="true" type="button"></button><button class="cyan" data-color="#41d9cf" aria-label="Türkis" aria-pressed="false" type="button"></button><button class="coral" data-color="#ff928d" aria-label="Koralle" aria-pressed="false" type="button"></button></div></div></div>
-<small class="preview-note">Illustrative Vorschau · Beispielwerte</small></div></div></div><div class="client-footnote"><span>Der Client wird passend zur Minecraft-Version vom Launcher eingerichtet.</span><a href="#compatibility">Versionshinweise ↗</a></div></section>
-<section class="launcher-section" id="launcher" aria-labelledby="launcher-title"><div class="wrap launcher-layout"><div class="launcher-copy"><p class="eyebrow violet">DEIN LAUNCHER</p><h2 id="launcher-title">Weniger verwalten.<br><span>Mehr spielen.</span></h2><p>Ein Setup für den Server. Eins zum Ausprobieren. Behalte Profile, Mods und Ressourcen an einem Ort – und starte mit dem Profil, das gerade zu dir passt.</p><a class="text-link" href="#download">Launcher herunterladen →</a></div><div class="launcher-demo"><div class="window-bar"><span><img src="tg-logo.webp" width="20" height="20" alt=""> TEGNAS LAUNCHER</span><small>Beispielansicht</small></div><div class="launcher-body"><div class="profile-top"><span>DEIN AKTIVES PROFIL</span><span class="ready"><i class="dot" aria-hidden="true"></i> Bereit</span></div><h3 id="profile-name">Tegnas 26.3</h3><p id="profile-meta">Minecraft 26.3 · Fabric</p><div class="profiles" role="group" aria-label="Beispielprofil auswählen"><button data-profile="26.3" aria-pressed="true" type="button"><span class="profile-art art-purple" aria-hidden="true">TG</span><strong>Tegnas 26.3</strong><small>Fabric</small><span class="profile-check" aria-hidden="true">✓</span></button><button data-profile="1.21.10" aria-pressed="false" type="button"><span class="profile-art art-teal" aria-hidden="true">TG</span><strong>Tegnas 1.21.10</strong><small>Fabric</small><span class="profile-check" aria-hidden="true">✓</span></button></div><div class="mod-status"><span><i class="dot" aria-hidden="true"></i> Mods im Blick</span><span>Profile getrennt verwalten</span></div><a class="preview-start" href="#download">▶ &nbsp; Launcher ausprobieren</a></div></div></div></section>
-<section class="wrap section features-layout" id="features" aria-labelledby="features-title"><div><p class="eyebrow violet">ALLES FÜR DEIN SETUP</p><h2 id="features-title">Ein Zuhause<br>für dein Minecraft.</h2><p class="features-description">Die kleinen Dinge, die den Weg ins Spiel einfacher machen.</p></div><div class="feature-list"><article><span>01</span><div><h3>Profile, die zu dir passen.</h3><p>Eigene Instanzen, Banner und Kontozuordnung. Beim Duplizieren wählst du aus, welche Inhalte mitkommen.</p></div></article><article><span>02</span><div><h3>Deine Mods. Aktuell gehalten.</h3><p>Mods über Modrinth verwalten und Updates erkennen. Kompatible Versionen lassen sich beim Versionswechsel übernehmen.</p></div></article><article><span>03</span><div><h3>Deine Welt. Dein Look.</h3><p>Ressourcenpakete, Shader und Skins verwalten. Die Akzentfarbe verbindet Launcher und Tegnas-Oberfläche.</p></div></article><article><span>04</span><div><h3>Updates ohne Umwege.</h3><p>Neue Launcher-Versionen und ihre Änderungen direkt in der Anwendung ansehen und installieren.</p></div></article></div></section>
-<section class="wrap section release-section" id="updates" aria-labelledby="updates-title"><div class="section-heading"><div><p class="eyebrow violet">BLEIB AUF DEM NEUESTEN STAND</p><h2 id="updates-title">Tegnas entwickelt sich.</h2></div><a class="text-link" href="https://github.com/Tegnas/tegnas-launcher/releases" target="_blank" rel="noopener noreferrer">Alle Releases ↗</a></div><article class="release-card"><div class="release-version"><span class="badge" id="release-channel">BETA</span><h3 data-version>v1.1.3-beta</h3><p>Launcher mit Tegnas Client <span id="client-version">v2.0.2-beta</span></p><small id="release-date">16. Oktober 2026</small></div><div class="release-details"><h4>Was ist neu?</h4><ul id="release-notes"><li>Startseite und Profilverwaltung überarbeitet.</li><li>Neue Minecraft-Banner und lila Standarddesign.</li><li>Mod-Status und Darstellung verbessert.</li></ul><a class="text-link" id="release-link" href="https://github.com/Tegnas/tegnas-launcher/releases/tag/v1.1.3-beta" target="_blank" rel="noopener noreferrer">Vollständige Release-Notes ↗</a></div></article></section>
-<section class="wrap section faq-layout" id="compatibility" aria-labelledby="faq-title"><div><p class="eyebrow violet">GUT ZU WISSEN</p><h2 id="faq-title">Noch Fragen?</h2></div><div class="faq"><details><summary>Welche Minecraft-Versionen unterstützt der Client?</summary><p>Die Tegnas-Modfunktionen sind für <strong>Minecraft 1.21.10 und 26.3 mit Fabric</strong> eingerichtet. Weitere Versionen und Vanilla werden separat getestet. Maßgeblich ist die Beschreibung des jeweiligen Releases.</p></details><details><summary>Muss ich den Client separat installieren?</summary><p>Nein. Der Launcher bringt den Client mit und richtet ihn für die passende Minecraft-Version automatisch ein. Du brauchst keinen zusätzlichen Client-Download.</p></details><details><summary>Brauche ich ein Minecraft-Konto?</summary><p>Für das reguläre Spielen benötigst du Minecraft: Java Edition und dein Microsoft-Konto. Die Anmeldung erfolgt über den offiziellen Microsoft-Login.</p></details><details><summary>Kann ich eigene Mods und Ressourcenpakete nutzen?</summary><p>Ja. Du kannst deine Profile mit Mods, Ressourcenpaketen und Shadern ergänzen. Die Inhalte müssen zur Minecraft-Version und zum Loader deines Profils passen.</p></details></div></section>
-<section class="download-section" id="download" aria-labelledby="download-title"><div class="wrap"><img class="download-brand" src="tegnas-client.webp" alt="Tegnas Client" width="1500" height="750" loading="lazy"><p class="eyebrow violet">DEIN NÄCHSTES SETUP WARTET.</p><h2 id="download-title">Bereit, loszuzocken?</h2><p>Tegnas Launcher herunterladen. Profil einrichten. Spielen.</p><a class="button primary" data-download href="https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.3-beta/TegnasLauncher.exe"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>Download für Windows</a><div class="download-meta"><span data-version>v1.1.3-beta</span><span>Windows 10 / 11 · 64 Bit</span><span>Tegnas Client inklusive</span></div><a class="download-alternative" href="https://github.com/Tegnas/tegnas-launcher/releases" target="_blank" rel="noopener noreferrer">Andere Releases und Änderungen auf GitHub ↗</a></div></section>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tegnas Launcher &amp; Client — Dein Spiel. Dein Tegnas.</title>
+<!-- Tailwind CSS CDN -->
+
+
+<!-- Google Fonts -->
+
+
+
+<!-- Lucide Icons -->
+
+
+<meta content="Tegnas Launcher und Client für Minecraft: Java Edition. Profile, Mods, Ressourcen, MSG Chat und eigenes HUD. Für Windows 10 und 11." name="description"/><meta content="#0a0b10" name="theme-color"/><meta content="Tegnas — Dein Spiel. Dein Tegnas." property="og:title"/><meta content="https://tegnas.github.io/tegnas-launcher/assets/tegnas-hero.webp" property="og:image"/><link href="https://tegnas.github.io/tegnas-launcher/" rel="canonical"/><link href="tg-logo.webp" rel="icon"/><link href="styles.css" rel="stylesheet"/><script defer="" src="app.js"></script></head>
+<body class="bg-[#0a0b10] text-gray-100 font-sans antialiased overflow-x-hidden selection:bg-cyan-500 selection:text-black"><a class="skip" href="#main">Zum Inhalt</a>
+<!-- Ambient Mesh Background Glows -->
+<div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+<div class="absolute -top-[10%] -left-[10%] w-[500px] h-[500px] bg-cyan-500/15 rounded-full blur-[140px] animate-pulse-glow"></div>
+<div class="absolute top-[30%] -right-[10%] w-[600px] h-[600px] bg-purple-600/15 rounded-full blur-[160px] animate-pulse-glow" style="animation-delay: 2s;"></div>
+<div class="absolute -bottom-[10%] left-[20%] w-[500px] h-[500px] bg-blue-600/15 rounded-full blur-[150px] animate-pulse-glow" style="animation-delay: 4s;"></div>
+<div class="absolute inset-0 bg-[linear-gradient(to_right,#1f29370a_1px,transparent_1px),linear-gradient(to_bottom,#1f29370a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+</div>
+<!-- Navigation Header -->
+<header class="sticky top-0 z-50 w-full backdrop-blur-md bg-[#0a0b10]/70 border-b border-white/5 transition-all">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="flex items-center gap-3 group" href="#top"><img alt="" class="w-10 h-10 rounded-xl" height="42" src="tg-logo.webp" width="42"/><span class="font-display font-extrabold text-2xl tracking-wider text-white">TEGNAS<span class="text-cyan-400">.</span></span></a>
+<!-- Desktop Navigation -->
+<button aria-controls="nav-links" aria-expanded="false" class="menu-toggle md:hidden text-sm text-cyan-300 border border-white/10 px-3 py-2 rounded-lg" type="button">Menü</button><nav aria-label="Hauptnavigation" class="site-nav" id="nav-links">
+<a class="hover:text-cyan-400 transition-colors" href="#features">Funktionen</a>
+<a class="hover:text-cyan-400 transition-colors" href="#preview">Der Launcher</a>
+<a class="hover:text-cyan-400 transition-colors" href="#download">Downloads</a>
+<a class="hover:text-cyan-400 transition-colors" href="#community">Community</a>
+</nav>
+<!-- Quick Action Buttons -->
+<div class="flex items-center gap-4">
+<a aria-label="Tegnas auf GitHub" class="p-2.5 rounded-xl glass-card text-gray-300 hover:text-white hover:bg-white/10 transition-all" href="https://github.com/tegnas/tegnas-launcher" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M9 19c-4 1-4-2-6-2m12 5v-4c0-1 0-2-1-2 4 0 7-2 7-6 0-2-1-3-2-4 0-1 0-2-1-3-2 0-3 1-4 1-2-1-4-1-6 0-1 0-3-1-4-1-1 1-1 2-1 3-1 1-2 2-2 4 0 4 3 6 7 6-1 1-1 2-1 3v3"></path></svg>
+</a>
+<a class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-semibold text-sm text-slate-950 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all" href="#download">
+<svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"></path></svg>
+<span>Herunterladen</span>
+</a>
+</div>
+</div>
+</header>
+<main class="relative z-10" id="main">
+<!-- Hero Section -->
+<section class="relative pt-12 pb-20 md:pt-24 md:pb-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="top">
+<div class="text-center space-y-6 max-w-4xl mx-auto">
+<!-- Version Tag / Status Pill -->
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border border-cyan-500/30 text-xs font-semibold tracking-wide text-cyan-300">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+</span>
+<span>Launcher &amp; Client · Fabric und Vanilla</span>
+<svg aria-hidden="true" class="w-3.5 h-3.5 text-cyan-400" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"></path></svg>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display text-5xl sm:text-6xl md:text-7xl font-black tracking-tight leading-tight">Dein Spiel.<br/><span class="gradient-text">Dein Tegnas.</span></h1>
+<!-- Subtitle -->
+<p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto font-normal leading-relaxed">Deine Profile, deine Mods und dein Look. Ein Launcher für dein Setup – und ein Client, der Minecraft zu deinem Minecraft macht.</p>
+<!-- Hero CTA Buttons -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+<a class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-600 font-bold text-slate-950 text-base shadow-xl shadow-cyan-500/30 hover:shadow-cyan-500/50 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-3 group" data-download="" href="https://github.com/Tegnas/tegnas-launcher/releases">
+<svg aria-hidden="true" class="w-5 h-5 transition-transform group-hover:-translate-y-0.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"></path></svg>
+<span>Tegnas für Windows</span>
+</a>
+<a class="w-full sm:w-auto px-8 py-4 rounded-xl glass-card font-semibold text-gray-200 text-base hover:bg-white/10 hover:text-white transition-all flex items-center justify-center gap-2 border border-white/10" href="#preview">
+<svg aria-hidden="true" class="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M10 8l6 4-6 4V8 M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0"></path></svg>
+<span>Launcher entdecken</span>
+</a>
+</div>
+<!-- Live Metrics -->
+<div class="pt-10 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto border-t border-white/10"><div><div class="font-display text-2xl font-bold text-cyan-300">1.21.8</div><div class="text-[10px] text-gray-400 tracking-wider mt-2">FABRIC &amp; VANILLA</div></div><div><div class="font-display text-2xl font-bold text-cyan-300">1.21.10</div><div class="text-[10px] text-gray-400 tracking-wider mt-2">FABRIC &amp; VANILLA</div></div><div><div class="font-display text-2xl font-bold text-cyan-300">1.21.11</div><div class="text-[10px] text-gray-400 tracking-wider mt-2">FABRIC &amp; VANILLA</div></div><div><div class="font-display text-2xl font-bold text-cyan-300">26.3</div><div class="text-[10px] text-gray-400 tracking-wider mt-2">FABRIC &amp; VANILLA</div></div></div>
+</div>
+</section>
+<!-- Interactive Launcher Mockup / Preview Section -->
+<section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="preview">
+<div class="text-center mb-10">
+<h2 class="font-display text-3xl font-bold text-white">So sieht dein Tegnas aus.</h2>
+<p class="text-gray-400 text-sm mt-2">Startseite und Funktionen im Browser entdecken – als interaktive Vorschau.</p>
+</div>
+<!-- Launcher Frame -->
+<div class="max-w-6xl mx-auto rounded-2xl glass-panel p-2 shadow-2xl shadow-cyan-500/10 border border-white/10 relative overflow-hidden"><div class="bg-[#0e1017] px-4 py-3 rounded-t-xl flex items-center justify-between border-b border-white/5"><span class="flex gap-2 items-center text-xs text-gray-400"><img alt="" height="19" src="tg-logo.webp" width="19"/>Tegnas Launcher <span data-version=""></span></span><span class="text-[10px] text-cyan-300">Interaktive Beispielansicht</span></div>
+<div class="demo-layout"><aside class="demo-sidebar"><div class="demo-brand"><img alt="" height="52" src="tg-logo.webp" width="52"/><strong>TEGNAS</strong><small>L A U N C H E R</small></div><div aria-label="Launcher-Vorschau" aria-orientation="vertical" class="demo-nav" role="tablist"><small>HAUPT</small><button aria-controls="content-play" aria-selected="true" data-tab="play" id="tab-play" role="tab" type="button">⌂ <span>Startseite</span></button><button aria-controls="content-profiles" aria-selected="false" data-tab="profiles" id="tab-profiles" role="tab" tabindex="-1" type="button">▣ <span>Profile</span></button><small>MINECRAFT</small><button aria-controls="content-mods" aria-selected="false" data-tab="mods" id="tab-mods" role="tab" tabindex="-1" type="button">✦ <span>Mods</span></button><button aria-controls="content-resources" aria-selected="false" data-tab="resources" id="tab-resources" role="tab" tabindex="-1" type="button">▤ <span>Ressourcenpakete</span></button><small>SYSTEM</small><button aria-controls="content-settings" aria-selected="false" data-tab="settings" id="tab-settings" role="tab" tabindex="-1" type="button">⚙ <span>Einstellungen</span></button><button aria-controls="content-updates" aria-selected="false" data-tab="updates" id="tab-updates" role="tab" tabindex="-1" type="button">↻ <span>Updates</span></button></div><span class="demo-motto">GAMING FOR A BETTER DAY</span></aside><div class="demo-main"><div class="demo-topline">ZOCKEN <span>•</span> CHILLEN</div>
+<div aria-labelledby="tab-play" class="demo-panel" id="content-play" role="tabpanel"><div class="home-grid"><div class="home-primary"><h3 class="welcome"><span class="avatar">TG</span> Willkommen zurück!</h3><img alt="Originales Tegnas-Launcher-Banner: Zeit zu zocken" class="real-banner" height="300" src="assets/tegnas-hero.webp" width="1325"/><div class="launch-selectors"><label>KONTO<select id="demo-account"><option>Beispielkonto</option><option>Zweitkonto</option></select></label><label>AKTIVES PROFIL<select id="demo-profile"><option value="26.3">Tegnas 26.3</option><option value="1.21.10">Tegnas 1.21.10</option></select></label><a class="play-button" href="#download">▶   SPIELEN</a></div></div><aside class="home-cards"><div class="vote-card"><strong>VOTE REMINDER</strong><span>Für deinen Server</span><small>Nächster Vote möglich in:</small><b>Bereit zum Voten</b><span class="demo-vote-label">Deine Vote-Seiten im Launcher</span></div><div class="mod-card"><small>MOD-STATUS</small><strong>Alle Mods aktuell</strong><span>Dein Setup im Blick</span></div></aside></div><div class="all-profiles"><div class="profile-heading"><div><h4>Alle Profile</h4><small>Alle Konten und Versionen</small></div><button data-open-tab="profiles" type="button">Alle verwalten ›</button></div><div aria-label="Beispielprofil auswählen" class="profile-scroll" role="group"><button aria-pressed="true" data-profile="26.3" type="button"><span class="profile-picture cyan-picture">TG</span><strong>Tegnas 26.3</strong><small>Minecraft 26.3 · Fabric</small><b class="selected-label">✓ Ausgewählt</b></button><button aria-pressed="false" data-profile="1.21.10" type="button"><span class="profile-picture purple-picture">TG</span><strong>Tegnas 1.21.10</strong><small>Minecraft 1.21.10 · Fabric</small><b class="selected-label">✓ Ausgewählt</b></button></div></div></div>
+<div aria-labelledby="tab-profiles" class="demo-panel detail-panel" hidden="" id="content-profiles" role="tabpanel"><p class="demo-eyebrow">DEINE PROFILE</p><h3>Ein Profil für jede Runde.</h3><p>Eigene Instanzen, Kontozuordnung und Inhalte beim Duplizieren gezielt übernehmen.</p><div class="demo-info-grid"><article><span>▣</span><h4>Tegnas 26.3</h4><p>Minecraft 26.3 · Fabric</p></article><article><span>▣</span><h4>Tegnas 1.21.10</h4><p>Minecraft 1.21.10 · Fabric</p></article></div><a class="demo-link" href="#download">Eigene Profile im Launcher erstellen ↗</a></div>
+<div aria-labelledby="tab-mods" class="demo-panel detail-panel" hidden="" id="content-mods" role="tabpanel"><p class="demo-eyebrow">MODS &amp; MODRINTH</p><h3>Deine Mods. Dein Setup.</h3><p>Passende Mods finden, in deinem Profil verwalten und verfügbare Updates erkennen.</p><div class="demo-info-grid"><article><span>✦</span><h4>Version passend wählen</h4><p>Mods müssen zur Minecraft-Version und zum Loader deines Profils passen.</p></article><article><span>↻</span><h4>Updates im Blick</h4><p>Grün bei aktuellem Stand. Rot, wenn ein Mod-Update verfügbar ist.</p></article></div><a class="demo-link" href="#download">Mit deinen Mods loslegen ↗</a></div>
+<div aria-labelledby="tab-resources" class="demo-panel detail-panel" hidden="" id="content-resources" role="tabpanel"><p class="demo-eyebrow">DEIN LOOK</p><h3>Deine Welt. Dein Stil.</h3><p>Ressourcenpakete, Shader und Skins für deine Profile verwalten.</p><img alt="Minecraft-Motiv mit Kirschblüten und Flusstal" class="resource-image" height="724" src="assets/cherry-valley.png" width="2172"/><a class="demo-link" href="#download">Dein Setup im Launcher gestalten ↗</a></div>
+<div aria-labelledby="tab-settings" class="demo-panel detail-panel" hidden="" id="content-settings" role="tabpanel"><p class="demo-eyebrow">DEIN DESIGN</p><h3>Deine Farbe. Dein Tegnas.</h3><p>Probiere die Akzentfarbe der Launcher-Vorschau aus.</p><div aria-label="Akzentfarbe der Vorschau" class="theme-picker" role="group"><button aria-label="Türkis" aria-pressed="true" data-color="#42dace" style="background:#42dace" type="button"></button><button aria-label="Lila" aria-pressed="false" data-color="#b48af4" style="background:#b48af4" type="button"></button><button aria-label="Orange" aria-pressed="false" data-color="#e89877" style="background:#e89877" type="button"></button></div><div class="theme-example">TEGNAS EINSTELLUNGEN <strong>Dein Menü, deine Akzente.</strong></div></div>
+<div aria-labelledby="tab-updates" class="demo-panel detail-panel" hidden="" id="content-updates" role="tabpanel"><p class="demo-eyebrow">UPDATES DIREKT IM LAUNCHER</p><h3>Wissen, was neu ist.</h3><p>Ein eigenes Update-Fenster weist auf neue Versionen hin. Im Reiter Updates findest du die Änderungen.</p><a class="demo-link" href="#updates">Veröffentlichtes Release ansehen ↗</a></div>
+<div class="demo-caption">Funktionsvorschau · Beispielprofile und Beispielstatus · Spielen führt zum Download.</div></div></div></div>
+</section>
+<!-- Features Grid Section -->
+<section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="features">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-xs font-bold text-cyan-400 uppercase tracking-widest mb-2">DEIN SETUP IM MITTELPUNKT</h2>
+<p class="font-display text-3xl sm:text-4xl font-extrabold text-white">Mehr Tegnas. Mehr dein Minecraft.</p>
+<p class="text-gray-400 text-base mt-3">Launcher und Client greifen ineinander – für deine Profile, deine Mods und deinen Spielstil.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Feature 1 -->
+<div class="glass-card p-6 rounded-2xl space-y-4 hover:border-cyan-500/40 transition-all">
+<div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400">
+<svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="m13 2-9 12h7l-1 8 10-12h-7l1-8"></path></svg>
+</div>
+<h3 class="font-display font-bold text-xl text-white">Eigene Profile &amp; Konten</h3>
+<p class="text-gray-400 text-sm leading-relaxed">Getrennte Instanzen, eigene Profilbilder und Kontozuordnung. Beim Duplizieren wählst du aus, welche Inhalte mitkommen.</p>
+</div>
+<!-- Feature 2 -->
+<div class="glass-card p-6 rounded-2xl space-y-4 hover:border-purple-500/40 transition-all">
+<div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400">
+<svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5m-9 5v9l9 5 9-5V8m-9 5v9"></path></svg>
+</div>
+<h3 class="font-display font-bold text-xl text-white">Mods &amp; Ressourcen</h3>
+<p class="text-gray-400 text-sm leading-relaxed">Mods über Modrinth verwalten, Updates erkennen und Ressourcenpakete sowie Shader passend zum Profil einrichten.</p>
+</div>
+<!-- Feature 3 -->
+<div class="glass-card p-6 rounded-2xl space-y-4 hover:border-pink-500/40 transition-all">
+<div class="w-12 h-12 rounded-xl bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400">
+<svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="m12 3 2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6m8 13v6m-3-3h6"></path></svg>
+</div>
+<h3 class="font-display font-bold text-xl text-white">MSG Chat &amp; Tegnas HUD</h3>
+<p class="text-gray-400 text-sm leading-relaxed">Private Nachrichten im Blick behalten. Koordinaten, FPS, Weltzeit und weitere Anzeigen nach deinem Geschmack einstellen.</p>
+</div>
+<!-- Feature 4 -->
+<div class="glass-card p-6 rounded-2xl space-y-4 hover:border-blue-500/40 transition-all">
+<div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
+<svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5 M5 8a7 7 0 0 1 12-3l3 3M4 16l3 3a7 7 0 0 0 12-3"></path></svg>
+</div>
+<h3 class="font-display font-bold text-xl text-white">Menü &amp; Shulkervorschau</h3>
+<p class="text-gray-400 text-sm leading-relaxed">Eigene Tegnas Einstellungen, dunkler Modus und die Inhalte deiner Shulkerkisten direkt als Vorschau-Raster sehen.</p>
+</div>
+</div>
+</section>
+<!-- Direct Download Section -->
+<section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="updates"><div class="glass-card rounded-2xl p-7 sm:p-10"><div class="flex flex-wrap gap-6 items-start justify-between"><div><p class="text-cyan-400 text-xs font-bold tracking-widest">DAS IST NEU</p><h2 class="text-3xl font-display font-bold text-white mt-3" data-version="">Aktuelles GitHub-Release</h2><p class="text-sm text-gray-400 mt-3">Tegnas Client <span id="client-version">inklusive</span></p><span class="text-xs text-gray-500" id="release-date"></span></div><span class="text-xs text-cyan-300 bg-cyan-500/10 border border-cyan-500/25 px-3 py-1 rounded-full" id="release-channel">RELEASES</span></div><ul class="release-notes text-sm text-gray-300 mt-7" id="release-notes"><li>Änderungen und Versionsdetails findest du auf GitHub.</li></ul><a class="inline-flex text-cyan-400 hover:text-cyan-200 text-sm mt-6" href="https://github.com/Tegnas/tegnas-launcher/releases" id="release-link" rel="noopener noreferrer" target="_blank">Vollständige Release-Notes ↗</a></div></section><section class="py-20 relative" id="download">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="glass-panel p-8 sm:p-12 rounded-3xl border border-white/10 relative overflow-hidden text-center">
+<div class="max-w-2xl mx-auto space-y-6">
+<h2 class="font-display text-3xl sm:text-5xl font-black text-white">Deine nächste Runde wartet.</h2>
+<p class="text-gray-300 text-base">Tegnas Launcher und Client für Windows 10 und 11. Gemeinsam in einem Download.</p>
+<!-- OS Cards Grid -->
+<div class="pt-6 max-w-md mx-auto"><a class="block p-6 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 hover:border-cyan-400 transition-all" data-download="" href="https://github.com/Tegnas/tegnas-launcher/releases"><svg aria-hidden="true" class="w-8 h-8 text-cyan-400 mx-auto mb-3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M3 4h18v13H3V4m9 13v4m-4 0h8"></path></svg><strong class="text-lg text-white">Windows 10 / 11</strong><p class="text-xs text-gray-400 mt-2">64 Bit · Tegnas Client inklusive</p><span class="block mt-5 rounded-xl px-5 py-3 bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-bold text-sm">Launcher herunterladen ↗</span></a></div>
+<div class="download-counter" role="status" aria-live="polite"><span class="download-counter-icon" aria-hidden="true">↧</span><div><strong id="download-total">—</strong><span>Launcher-Downloads · alle Releases</span><small id="download-count-status">Downloadzahlen werden geladen …</small></div></div>
+<div class="text-xs text-gray-500 pt-4"><a class="hover:text-cyan-300" href="https://github.com/Tegnas/tegnas-launcher/releases" rel="noopener noreferrer" target="_blank">Alle Versionen und Release-Notes auf GitHub ↗</a></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Community & Links Section -->
+<section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="community">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Discord Banner -->
+<div class="glass-card p-8 rounded-3xl flex flex-col justify-between space-y-6">
+<div class="space-y-3">
+<div class="w-12 h-12 rounded-2xl bg-indigo-500/20 flex items-center justify-center text-indigo-400">
+<svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M21 3H3v14h5l4 4 4-4h5V3"></path></svg>
+</div>
+<h3 class="font-display font-bold text-2xl text-white">Zocken. Chillen. Community.</h3>
+<p class="text-gray-400 text-sm">Fragen stellen, Fehler melden und Ideen für Tegnas teilen. Wir sehen uns auf Discord.</p>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm transition-all w-fit" href="https://discord.gg/2txGwR6A4v" rel="noopener noreferrer" target="_blank">
+<span>Zu Discord</span>
+<svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M14 3h7v7m0-7L10 14m1-10H3v17h17v-8"></path></svg>
+</a>
+</div>
+<!-- GitHub Banner -->
+<div class="glass-card p-8 rounded-3xl flex flex-col justify-between space-y-6">
+<div class="space-y-3">
+<div class="w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-white">
+<svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M9 19c-4 1-4-2-6-2m12 5v-4c0-1 0-2-1-2 4 0 7-2 7-6 0-2-1-3-2-4 0-1 0-2-1-3-2 0-3 1-4 1-2-1-4-1-6 0-1 0-3-1-4-1-1 1-1 2-1 3-1 1-2 2-2 4 0 4 3 6 7 6-1 1-1 2-1 3v3"></path></svg>
+</div>
+<h3 class="font-display font-bold text-2xl text-white">Tegnas auf GitHub</h3>
+<p class="text-gray-400 text-sm">Neue Versionen, Änderungen und den aktuellen Projektstand findest du in unserem GitHub-Repository.</p>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm transition-all w-fit border border-white/10" href="https://github.com/tegnas/tegnas-launcher" rel="noopener noreferrer" target="_blank">
+<span>Zum Repository</span>
+<svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewBox="0 0 24 24"><path d="M14 3h7v7m0-7L10 14m1-10H3v17h17v-8"></path></svg>
+</a>
+</div>
+</div>
+</section>
 </main>
-<footer class="wrap"><div class="footer-top"><a class="brand" href="#top"><img src="tg-logo.webp" width="36" height="36" alt=""><span>TEGNAS<small>ZOCKEN · CHILLEN</small></span></a><div><a href="https://github.com/Tegnas/tegnas-launcher" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#download">Download</a><a href="#top">Nach oben ↑</a></div></div><p class="legal">Tegnas ist ein unabhängiges Drittanbieter-Projekt und kein offizielles Minecraft-Produkt. Es ist nicht von Mojang oder Microsoft genehmigt und steht nicht mit ihnen in Verbindung. Minecraft ist eine Marke von Microsoft/Mojang.</p><span class="copyright">© <span id="year">2026</span> Tegnas. Für dein Minecraft gemacht.</span></footer>
-</body></html>
+<!-- Footer -->
+<footer class="border-t border-white/5 py-10 bg-[#07080c] relative z-10 text-xs text-gray-500"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-5"><p>© <span id="year">2026</span> Tegnas. Kein offizielles Minecraft-Produkt. Nicht mit Mojang oder Microsoft verbunden.</p><div class="flex gap-6"><a class="hover:text-cyan-300" href="#top">Nach oben ↑</a><a class="hover:text-cyan-300" href="https://github.com/Tegnas/tegnas-launcher" rel="noopener noreferrer" target="_blank">GitHub ↗</a></div></div></footer>
+<!-- Interactive Scripts -->
+
+</body>
+</html>
