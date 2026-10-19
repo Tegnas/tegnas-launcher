@@ -1,6 +1,0 @@
-{
-  "version": "1.1.11",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "CAF77921684D9BEBE7287A0D85033C23A764CD6F251554BF5F83177C249153AB",
-  "notes": "Launcher v1.1.11-beta / Client v2.0.4-beta: Absturz beim Oeffnen der Profilbild-Auswahl behoben; alle 50 Profilbild-Vorlagen unabhaengig von den Banner-Vorlagen; Fehler der Bildauswahl werden abgefangen."
-}
