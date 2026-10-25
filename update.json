@@ -1,6 +1,0 @@
-{
-  "version": "1.1.14",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "3E300C746E4618B901B38C77F65BBD8F056F5609B6B05949B783F21163E01567",
-  "notes": "Launcher v1.1.14-beta / Client v2.0.6-beta: MSG-Chatverlauf fuer fuenf Tage; automatische Freunde-Meldungen; Namen anklicken und direkt antworten; Empfaenger beim Schreiben sichtbar; Release-Verlauf unter Was ist neu mit Versionsauswahl; automatische Installation mit Launcher-Neustart; erneutes Update-Angebot derselben Launcher-Version behoben."
-}
