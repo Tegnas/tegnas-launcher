@@ -1,6 +1,0 @@
-{
-  "version": "1.1.12",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "B4A3AE32809CFAE4B2668CFBD7BC843F1005247E55AA45DD8441F2416335BCBE",
-  "notes": "Launcher v1.1.12-beta / Client v2.0.5-beta: Integrierte Konsole mit farbigen Warnungen und Fehlern; mehrzeilige Log4j-Meldungen im Filter; acht neue Profilbanner und acht Client-Hintergruende; Klick-Anleitungen aktualisiert."
-}
