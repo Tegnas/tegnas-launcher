@@ -1,6 +1,0 @@
-{
-  "version": "1.1.13",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "D9ADC006DF5131AB17F85EF3890C9CC4558BA211BF84463069C1039931988DA8",
-  "notes": "Launcher v1.1.13-beta / Client v2.0.6-beta: MSG-Chatverlauf fuer fuenf Tage; automatische Freunde-Meldungen; Namen anklicken und direkt antworten; Empfaenger beim Schreiben sichtbar; erneutes Update-Angebot derselben Launcher-Version behoben."
-}
