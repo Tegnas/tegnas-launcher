@@ -1,0 +1,6 @@
+{
+  "version": "1.1.15",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "A302EF37AB5DD7889FB9395EF7A95B76325DDB1FDD1EF046BEDC4E13EA052D34",
+  "notes": "Launcher v1.1.15-beta / Client v2.0.7-beta: MSG-Verlauf fuer 30 Tage; kleine Chats schliessen ohne Archivverlust; Chat im grossen Verlauf mit Bestaetigung loeschen; Freunde nur im kleinen HUD; Profilmenue-Punkte zentriert."
+}
