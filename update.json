@@ -1,0 +1,6 @@
+{
+  "version": "1.1.21",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "9EC2BA6A05D51159D628AF6775CB098165EDC3B430C891F1284E9ED1CB637F71",
+  "notes": "Launcher v1.1.21-beta: Dunkles Tegnas-Installationsfenster mit eigenem Logo; verstaendlicherer Text bei der Ueberpruefung des Downloads."
+}
