@@ -1,0 +1,6 @@
+{
+  "version": "1.1.31",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "28AB65C46390DF517656E9AD81DB2848C44B72A45F3C2EA69047AB73F605E79C",
+  "notes": "Launcher v1.1.31-beta: Cloud-Status zeigt laufenden manuellen Abgleich statt alter Hintergrundmeldung. Der Cloud-Reiter startet keinen Profilabgleich beim Oeffnen. Konflikte nennen die betroffenen Profile; Erfolg, Abbruch und Fehler bleiben eindeutig zugeordnet."
+}
