@@ -1,0 +1,6 @@
+{
+  "version": "1.1.32",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "1EBA3F7B0D1EE82E8D483713C361594999C1A466F47946E6D0E6CE53C76BA573",
+  "notes": "Launcher v1.1.32-beta: OneDrive-Downloads bei temporaeren Serverfehlern bis zu dreimal mit Wartezeit wiederholen. Retry-After beachten, Abbrechen bleibt moeglich. Klare Meldung bei anhaltender Stoerung; keine Wiederholung von Schreibvorgaengen."
+}
