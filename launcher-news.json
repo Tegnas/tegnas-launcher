@@ -1,12 +1,4 @@
 {
   "schema": 1,
-  "items": [
-    {
-      "id": "0ac115dec8b8465d9657931e5b7b5136",
-      "title": "Verbesserung der Synchronisierung",
-      "body": "Ich arbeite aktuell daran, die OneDrive-Synchronisierung schneller und zuverl\u00E4ssiger zu machen. Im Fokus stehen k\u00FCrzere Wartezeiten, stabilere \u00DCbertragungen zwischen PC und Laptop sowie eine \u00FCbersichtlichere Fortschrittsanzeige.\n\nFalls bei euch Fehler oder Abbr\u00FCche auftreten, schickt mir bitte den Messbericht aus dem Cloud-Reiter. Das hilft mir bei der Fehlersuche.",
-      "status": "In Arbeit",
-      "updatedAt": "2026-11-04T06:51:29.125871+00:00"
-    }
-  ]
+  "items": []
 }
