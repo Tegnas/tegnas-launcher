@@ -1,0 +1,6 @@
+{
+  "version": "1.1.36",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "3AA94067B328DDABDD275AE31398455020B5F8D1184A9C4123C00A856A2241F0",
+  "notes": "Launcher v1.1.36-beta: Neues Cloud-Statusfenster mit verstrichener Zeit. Fortschritt nach dem Download beim Pruefen, Vorbereiten, Uebernehmen und Aufraeumen sichtbar; abgeschlossen erst nach allen Schritten."
+}
