@@ -1,0 +1,6 @@
+{
+  "version": "1.1.35",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
+  "sha256": "1A4A65082877A78C91C888C594679FDB469F3B336904739F88D65949429EF5AC",
+  "notes": "Launcher v1.1.35-beta: Cloud-Download nach Weiterleitung korrekt wiederholen. Urspruengliche API-Adresse bleibt fuer Wiederholungen erhalten; Adresspruefung und Kontobindung bleiben bestehen."
+}
