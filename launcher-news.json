@@ -1,4 +1,12 @@
 {
   "schema": 1,
-  "items": []
+  "items": [
+    {
+      "id": "e8e7e9d1ce4740399d7ea3c1d364b5fe",
+      "title": "Cloud-Synchronisierung \u2013 Fortschritt besser sichtbar",
+      "body": "Nach 100 % Download ist noch etwas zu tun: Dateien pr\u00FCfen, vorbereiten und ins Profil \u00FCbernehmen. Daf\u00FCr gibt es jetzt ein eigenes Statusfenster mit Laufzeit und Dateifortschritt. So seht ihr, woran der Launcher gerade arbeitet und wann das Profil wirklich fertig ist.\n\nDie Cloud-Synchronisierung bleibt vorerst in der Beta. R\u00FCckmeldungen zum Abgleich zwischen PC und Laptop sind willkommen!",
+      "status": "In Arbeit",
+      "updatedAt": "2026-11-04T07:50:49.5115718+00:00"
+    }
+  ]
 }
