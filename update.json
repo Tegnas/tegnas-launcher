@@ -1,6 +1,6 @@
 {
-  "version": "1.1.36",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/latest/download/TegnasLauncher.exe",
-  "sha256": "3AA94067B328DDABDD275AE31398455020B5F8D1184A9C4123C00A856A2241F0",
-  "notes": "Launcher v1.1.36-beta: Neues Cloud-Statusfenster mit verstrichener Zeit. Fortschritt nach dem Download beim Pruefen, Vorbereiten, Uebernehmen und Aufraeumen sichtbar; abgeschlossen erst nach allen Schritten."
+  "version": "1.1.38",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.38-beta/TegnasLauncher.exe",
+  "sha256": "DFD23CEC6D7CA715397CF349DA8935486F09D0C23222F175BF31A7BE4104BCCF",
+  "notes": "\u2728 Neuer Glossy-Stil f\u00FCr Launcher und Client: gl\u00E4nzende Buttons, dunkle Fl\u00E4chen und feine Lichtkanten.\n\n\uD83C\uDFAE Startmen\u00FC, Account-Wechsler und Tegnas-Einstellungen optisch \u00FCberarbeitet \u2013 f\u00FCr Minecraft 1.21.8, 1.21.10, 1.21.11 und 26.3.\n\n\uD83C\uDFA8 Eure gew\u00E4hlte Akzentfarbe bleibt erhalten."
 }
