@@ -1,0 +1,179 @@
+/* =====================================================================
+   Tegnas – Glossy-Schicht
+   Wird nach world.css geladen. Gleiche Launcher-Farben, zusätzlich:
+   Glasflächen, Glanzkanten, Spiegelreflexe und glänzende Buttons.
+   Zum Abschalten einfach den <link> auf gloss.css in index.html entfernen.
+   ===================================================================== */
+
+:root{
+  --glass:linear-gradient(180deg,#ffffff12 0%,#ffffff06 38%,#ffffff03 100%);
+  --glass-strong:linear-gradient(180deg,#ffffff1c 0%,#ffffff0a 45%,#ffffff04 100%);
+  --glass-edge:#ffffff1f;
+  --glass-edge-hi:#ffffff33;
+  --hi:inset 0 1px 0 #ffffff2e,inset 0 -1px 0 #00000059;
+  --gloss-shadow:0 24px 60px -28px #000,0 0 0 1px #ffffff08;
+}
+
+/* Hintergrund: tiefe, schimmernde Lila-Flächen über die ganze Seite */
+body{
+  background:
+    radial-gradient(900px 600px at 85% -5%,#7D20E840,transparent 70%),
+    radial-gradient(700px 500px at -10% 30%,#3B1B5880,transparent 70%),
+    radial-gradient(800px 600px at 110% 65%,#A52CFF26,transparent 70%),
+    radial-gradient(700px 500px at 0% 100%,#3B1B5866,transparent 70%),
+    var(--bg);
+  background-attachment:fixed;
+}
+@media (max-width:960px){body{background-attachment:scroll}}
+
+/* ---------- Glas-Flächen ---------- */
+.launcher,.feature-panel,.guide-content,.download-card,.client-card,.fact-row,
+.feature-selector [role=tab],.guide-steps [role=tab],.faq-list details,.release,
+.cloud-guide,.community,.community-link,.checksum,.stat-status,.profile,.mod-item,
+.sync-visual,.app-bottom,dialog{
+  background-image:var(--glass);
+  background-color:color-mix(in srgb,var(--surface) 62%,transparent);
+  border-color:var(--glass-edge);
+  box-shadow:var(--hi),var(--gloss-shadow);
+}
+.launcher,.download-card,dialog,.header.is-scrolled,.hud-line{
+  -webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);
+}
+.feature-selector [role=tab]:hover,.guide-steps [role=tab]:hover,.client-card:hover,.community-link:hover,.profile:hover{
+  background-image:var(--glass-strong);border-color:var(--glass-edge-hi);
+}
+.faq-list details[open],.release[open]{background-image:var(--glass-strong);border-color:var(--glass-edge-hi)}
+
+/* Spiegelreflex über großen Panels (diagonaler Lichtstreifen) */
+.launcher,.feature-panel,.guide-content,.download-card,.community{position:relative;isolation:isolate}
+.launcher::after,.feature-panel::after,.guide-content::after,.download-card::after,.community::after{
+  content:"";position:absolute;inset:0;z-index:3;pointer-events:none;border-radius:inherit;
+  background:linear-gradient(115deg,#ffffff14 0%,#ffffff08 22%,transparent 22.2%,transparent 60%,#ffffff05 75%,transparent 90%);
+}
+.community{background-image:var(--glass),linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:auto,40px 40px,40px 40px}
+
+/* Aktive Auswahl: glänzendes Lila */
+.feature-selector [role=tab][aria-selected=true],.guide-steps [role=tab][aria-selected=true],.profile[aria-pressed=true]{
+  background-image:linear-gradient(180deg,#ffffff1a 0%,#ffffff08 46%,transparent 47%),linear-gradient(120deg,#7D20E866,#3B1B5880);
+  border-color:#B66AFFaa;
+  box-shadow:var(--hi),0 18px 40px -20px var(--brand),0 0 0 1px #B66AFF33;
+}
+.app-nav [role=tab][aria-selected=true]{
+  background-image:linear-gradient(180deg,#ffffff24 0%,#ffffff0a 48%,transparent 50%),linear-gradient(90deg,#7D20E8,#7D20E899);
+  box-shadow:var(--hi),inset 3px 0 0 var(--light),0 8px 20px -10px var(--brand);
+}
+@media (max-width:720px){.app-nav [role=tab][aria-selected=true]{box-shadow:var(--hi),inset 0 -3px 0 var(--light)}}
+
+/* ---------- Glänzende Buttons ---------- */
+.primary,.main-nav .nav-download,.mini-button,.mini-seg span.target,.hud-line b,.new-badge{
+  background:
+    linear-gradient(180deg,#ffffff38 0%,#ffffff14 46%,transparent 48%),
+    linear-gradient(180deg,#A52CFF 0%,#7D20E8 100%);
+  border:1px solid #B66AFF;
+  box-shadow:inset 0 1px 0 #ffffff66,inset 0 -2px 0 #3B1B58aa,0 10px 28px -10px var(--brand);
+  text-shadow:0 1px 1px #3B1B58b3;
+  color:#fff;
+}
+.primary:hover,.main-nav .nav-download:hover{
+  background:
+    linear-gradient(180deg,#ffffff45 0%,#ffffff1a 46%,transparent 48%),
+    linear-gradient(180deg,#A52CFF 0%,#8A2BF2 100%);
+  box-shadow:inset 0 1px 0 #ffffff80,inset 0 -2px 0 #3B1B58aa,0 16px 40px -10px var(--brand);
+}
+.play-button,.mini-play{
+  background:
+    linear-gradient(180deg,#ffffff59 0%,#ffffff1f 45%,transparent 47%),
+    linear-gradient(180deg,#32FF83 0%,#08BD55 100%);
+  border-color:var(--play-edge);
+  box-shadow:inset 0 1px 0 #ffffffa6,inset 0 -2px 0 #046B30,0 10px 30px -8px #08BD55b3;
+}
+.secondary,.ghost,.inline-button,.square-button,.menu-toggle,.dialog-close{
+  background-image:linear-gradient(180deg,#ffffff1a 0%,#ffffff08 48%,transparent 50%);
+  background-color:color-mix(in srgb,var(--surface-2) 70%,transparent);
+  border-color:var(--glass-edge-hi);
+  box-shadow:inset 0 1px 0 #ffffff26,inset 0 -1px 0 #00000066;
+}
+.secondary:hover,.ghost:hover,.inline-button:hover:not(:disabled),.square-button:hover:not(:disabled),.dialog-close:hover{
+  border-color:var(--light);background-image:linear-gradient(180deg,#ffffff26 0%,#ffffff0d 48%,transparent 50%)
+}
+
+/* Lichtreflex, der beim Hovern über den Button wandert */
+.button,.play-button,.main-nav .nav-download{position:relative;overflow:hidden;isolation:isolate}
+.button::before,.play-button::before,.main-nav .nav-download::before{
+  content:"";position:absolute;top:-20%;bottom:-20%;left:-60%;width:40%;z-index:-1;pointer-events:none;
+  background:linear-gradient(100deg,transparent,#ffffff40 50%,transparent);transform:skewX(-20deg) translateX(0);
+  transition:transform .7s var(--ease);
+}
+.button > *,.play-button > *{position:relative}
+.button:hover::before,.play-button:hover::before,.main-nav .nav-download:hover::before,
+.button:focus-visible::before,.play-button:focus-visible::before{transform:skewX(-20deg) translateX(420%)}
+.primary::before,.main-nav .nav-download::before,.play-button::before{z-index:1}
+.primary > *,.play-button > *,.main-nav .nav-download > *{z-index:2}
+
+/* ---------- Glänzende Details ---------- */
+.block-icon{box-shadow:inset 0 -4px 0 #00000040,inset 0 2px 0 #ffffff55,0 4px 10px -4px #000}
+.block-icon::after{content:"";display:block;width:100%;height:46%;border-radius:inherit;border-bottom-left-radius:40% 30%;border-bottom-right-radius:40% 30%;background:linear-gradient(180deg,#ffffff59,#ffffff0d)}
+.fs-icon,.card-icon,.community-link > .icon:first-child,.step-num{
+  background-image:linear-gradient(180deg,#ffffff1f 0%,#ffffff08 48%,transparent 50%);
+  box-shadow:inset 0 1px 0 #ffffff2e,inset 0 -1px 0 #00000059;
+}
+.feature-selector [role=tab][aria-selected=true] .fs-icon,.guide-steps [role=tab][aria-selected=true] .step-num{
+  background:linear-gradient(180deg,#ffffff40 0%,#ffffff14 46%,transparent 48%),linear-gradient(180deg,#A52CFF,#7D20E8);
+  box-shadow:inset 0 1px 0 #ffffff66,0 6px 16px -6px var(--brand);
+}
+.switch{background-image:linear-gradient(180deg,#00000040,#ffffff0a);box-shadow:inset 0 2px 4px #00000080,inset 0 -1px 0 #ffffff14}
+.switch[aria-checked=true]{background:linear-gradient(180deg,#ffffff2e 0%,#ffffff0d 46%,transparent 48%),linear-gradient(180deg,#A52CFF,#7D20E8);box-shadow:inset 0 1px 0 #ffffff59,0 0 14px -4px var(--brand)}
+.switch::after{background:radial-gradient(circle at 35% 30%,#fff,#D9D3EA 55%,#9C97B5)!important;box-shadow:0 2px 4px #0009}
+.switch[aria-checked=false]::after{background:radial-gradient(circle at 35% 30%,#E4E0F0,#ABA7C3 55%,#6E6A88)!important}
+.profile .tick{background:radial-gradient(circle at 35% 30%,#E5CCFF,var(--light) 60%,var(--brand))}
+.beta-badge,.sample-tag,.app-status,.preview-flag,.kicker,.section-index span{
+  background-image:linear-gradient(180deg,#ffffff1f 0%,#ffffff08 50%,transparent 52%);
+  box-shadow:inset 0 1px 0 #ffffff26;
+}
+progress::-webkit-progress-value{background:linear-gradient(180deg,#ffffff59 0%,#ffffff14 45%,transparent 50%),linear-gradient(90deg,var(--primary),var(--light))}
+progress::-moz-progress-bar{background:linear-gradient(180deg,#ffffff59 0%,#ffffff14 45%,transparent 50%),linear-gradient(90deg,var(--primary),var(--light))}
+.guide-progress i{background:linear-gradient(180deg,#ffffff59,transparent 60%),linear-gradient(90deg,var(--primary),var(--light))}
+
+/* Headlines mit Chrom-Glanz */
+.hero h1{
+  background:linear-gradient(180deg,#ffffff 0%,#F3F0FB 48%,#C9C2E0 52%,#ECE6FA 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 6px 24px #7D20E866);
+}
+.h1-accent{background:linear-gradient(180deg,#E2C4FF 0%,#B66AFF 46%,#A52CFF 52%,#7D20E8 100%);-webkit-background-clip:text;background-clip:text}
+.stat-number{
+  background:linear-gradient(180deg,#ffffff 0%,#F3F0FB 50%,#BDB5DA 54%,#E9E3F8 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.h2-accent{text-shadow:0 0 28px #A52CFF59}
+
+/* Header als Glasleiste */
+.header{box-shadow:inset 0 -1px 0 #ffffff0d}
+.header.is-scrolled{background-image:var(--glass);background-color:color-mix(in srgb,var(--bg) 70%,transparent);border-bottom-color:var(--glass-edge)}
+@media (max-width:960px){
+  .main-nav{background:linear-gradient(180deg,#ffffff0d,transparent 40%),color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+}
+
+/* Panorama und Vorschaubild mit Glasrahmen */
+.client-panorama,.app-landscape{box-shadow:inset 0 0 0 1px #ffffff1f,0 30px 70px -30px #000}
+.client-panorama::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;border-radius:inherit;background:linear-gradient(180deg,#ffffff1a 0%,transparent 30%);box-shadow:inset 0 1px 0 #ffffff40}
+.hud-line{background-image:var(--glass-strong);background-color:#030611a6;border-color:var(--glass-edge-hi);box-shadow:var(--hi)}
+
+/* Download-Karte: stärkerer Glanz */
+.download-card{
+  background-image:
+    linear-gradient(180deg,#ffffff10 0%,transparent 35%),
+    radial-gradient(80% 90% at 0% 0%,#7D20E84d,transparent 60%);
+  box-shadow:var(--hi),0 40px 90px -40px #A52CFF99,0 0 0 1px #ffffff0d;
+}
+.download-stat{background:linear-gradient(180deg,#ffffff0a,transparent 40%),#050918a6;border-left-color:var(--glass-edge)}
+.checksum code,.start-log{box-shadow:inset 0 2px 6px #00000099}
+
+/* Kontrastmodus und reduzierte Bewegung */
+@media (prefers-reduced-motion:reduce){
+  .button::before,.play-button::before,.main-nav .nav-download::before{display:none}
+}
+@media (forced-colors:active){
+  .hero h1,.h1-accent,.stat-number{background:none;color:CanvasText;filter:none}
+  .launcher::after,.feature-panel::after,.guide-content::after,.download-card::after,.community::after,.client-panorama::before,.block-icon::after{display:none}
+}
