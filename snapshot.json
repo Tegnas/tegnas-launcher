@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-11-05T19:54:18.076Z",
+  "downloads": 81,
+  "countedAssets": 28,
+  "latest": {
+    "tag": "v1.1.36-beta",
+    "name": "Tegnas Launcher v1.1.36-beta",
+    "beta": true,
+    "publishedAt": "2026-11-04T07:53:04Z",
+    "body": "Neues dunkles Statusfenster für die Cloud-Synchronisierung mit verstrichener Zeit.\r\n\r\nNach dem Download wird angezeigt, welche Dateien noch geprüft, vorbereitet und ins Profil übernommen werden.\r\n\r\n„Abgeschlossen“ erscheint erst, wenn auch die abschließende Prüfung und das Aufräumen fertig sind.\r\n\r\nAbbruch und Fehler werden im Statusfenster angezeigt.",
+    "url": "https://github.com/Tegnas/tegnas-launcher/releases/tag/v1.1.36-beta",
+    "asset": {
+      "name": "TegnasLauncher.exe",
+      "url": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.36-beta/TegnasLauncher.exe",
+      "size": 376957138,
+      "sha256": "3aa94067b328ddabdd275ae31398455020b5f8d1184a9c4123c00a856a2241f0"
+    }
+  },
+  "releases": [
+    {
+      "tag": "v1.1.36-beta",
+      "name": "Tegnas Launcher v1.1.36-beta",
+      "beta": true,
+      "publishedAt": "2026-11-04T07:53:04Z",
+      "body": "Neues dunkles Statusfenster für die Cloud-Synchronisierung mit verstrichener Zeit.\r\n\r\nNach dem Download wird angezeigt, welche Dateien noch geprüft, vorbereitet und ins Profil übernommen werden.\r\n\r\n„Abgeschlossen“ erscheint erst, wenn auch die abschließende Prüfung und das Aufräumen fertig sind.\r\n\r\nAbbruch und Fehler werden im Statusfenster angezeigt.",
+      "url": "https://github.com/Tegnas/tegnas-launcher/releases/tag/v1.1.36-beta",
+      "asset": {
+        "name": "TegnasLauncher.exe",
+        "url": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.36-beta/TegnasLauncher.exe",
+        "size": 376957138,
+        "sha256": "3aa94067b328ddabdd275ae31398455020b5f8d1184a9c4123c00a856a2241f0"
+      }
+    },
+    {
+      "tag": "v1.1.35-beta",
+      "name": "Tegnas Launcher v1.1.35-beta · Client v2.0.13-beta",
+      "beta": true,
+      "publishedAt": "2026-11-04T06:44:29Z",
+      "body": "Neu: Meldungsticker auf der Startseite. Per Klick öffnet sich die Übersicht mit Neuigkeiten, laufenden Arbeiten und bekannten Problemen.\r\n\r\nNeu: Verbesserungsvorschläge direkt über den neuen Reiter einreichen.\r\n\r\nNeu: Offline-Schreibhilfe im MSG-Chat. Wählbar zwischen Aus, Vorschlägen und Autokorrektur. Das deutsche Wörterbuch ist integriert.\r\n\r\nVorschläge mit Tab übernehmen, mit Shift+Tab wechseln und mit Strg+Z zurücknehmen. Bekannte Spielernamen, Befehle und Links sind ausgenommen.\r\n\r\nFür Minecraft 1.21.8, 1.21.10, 1.21.11 und 26.3. Keine zusätzliche Installation für die Schreibhilfe erforderlich.",
+      "url": "https://github.com/Tegnas/tegnas-launcher/releases/tag/v1.1.35-beta",
+      "asset": {
+        "name": "TegnasLauncher.exe",
+        "url": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.35-beta/TegnasLauncher.exe",
+        "size": 376955038,
+        "sha256": "1a4a65082877a78c91c888c594679fdb469f3b336904739f88d65949429ef5ac"
+      }
+    },
+    {
+      "tag": "v1.1.32-beta",
+      "name": "Tegnas Launcher v1.1.32-beta",
+      "beta": true,
+      "publishedAt": "2026-11-03T19:31:57Z",
+      "body": "OneDrive-Downloads werden bei vorübergehenden Serverfehlern automatisch bis zu dreimal mit Wartezeit wiederholt.\r\n\r\nKlarere Fehlermeldung, falls der Dienst weiterhin nicht erreichbar ist.\r\n\r\nLaufende Downloads und Wartezeiten lassen sich weiterhin abbrechen.",
+      "url": "https://github.com/Tegnas/tegnas-launcher/releases/tag/v1.1.32-beta",
+      "asset": {
+        "name": "TegnasLauncher.exe",
+        "url": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.32-beta/TegnasLauncher.exe",
+        "size": 245308218,
+        "sha256": "1eba3f7b0d1ee82e8d483713c361594999c1a466f47946e6d0e6ce53c76ba573"
+      }
+    }
+  ]
+}
