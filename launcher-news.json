@@ -2,6 +2,13 @@
   "schema": 1,
   "items": [
     {
+      "id": "8c695c92de6340fcaa58370fe3f031b3",
+      "title": "\uD83D\uDE80 Tegnas Launcher \u2013 Aktuell",
+      "body": "\u2728 Neues Glossy-Design f\u00FCr MSG-Chat, HUD, Hotbar und Men\u00FCs.\n\n\uD83C\uDFA8 Modernisierte Oberfl\u00E4che mit weicheren Rundungen und \u00FCberarbeiteten Einstellungen.\n\n\u2601\uFE0F Cloud-Synchronisierung f\u00FCr Profilbilder und Banner inklusive Bildausschnitt.\n\n\uD83D\uDD04 Verbessertes Update-Fenster mit direkter \u00C4nderungs\u00FCbersicht.\n\n\uD83D\uDC64 Profilverwaltung verbessert mit Kontobest\u00E4tigung und deutlicheren Fehlermeldungen.\n\n\uD83D\uDEE0\uFE0F OneDrive-Schlie\u00DFproblem \u00FCberarbeitet: Cloud-Vorg\u00E4nge werden beim Schlie\u00DFen abgebrochen und aufger\u00E4umt.",
+      "status": "Neu",
+      "updatedAt": "2026-11-07T08:33:52.1105957+00:00"
+    },
+    {
       "id": "e8e7e9d1ce4740399d7ea3c1d364b5fe",
       "title": "Cloud-Synchronisierung \u2013 Fortschritt besser sichtbar",
       "body": "Nach 100 % Download ist noch etwas zu tun: Dateien pr\u00FCfen, vorbereiten und ins Profil \u00FCbernehmen. Daf\u00FCr gibt es jetzt ein eigenes Statusfenster mit Laufzeit und Dateifortschritt. So seht ihr, woran der Launcher gerade arbeitet und wann das Profil wirklich fertig ist.\n\nDie Cloud-Synchronisierung bleibt vorerst in der Beta. R\u00FCckmeldungen zum Abgleich zwischen PC und Laptop sind willkommen!",
