@@ -2,6 +2,13 @@
   "schema": 1,
   "items": [
     {
+      "id": "release-v1.1.49-beta",
+      "title": "\uD83D\uDE80 Tegnas Launcher \u2013 Neues Beta-Update!",
+      "body": "\u2728 Hauptchat jetzt mit anpassbarem Hintergrund und frei verschiebbar im HUD-Editor.\n\n\uD83E\uDDE9 Mod-Versionen k\u00F6nnen gezielt gewechselt und vor Updates gesch\u00FCtzt werden.\n\n\uD83C\uDFA8 \u00DCberarbeitete Oberfl\u00E4che mit verbessertem Glossy-Design.\n\n\uD83D\uDD27 Spielen-/Stoppen-Button korrigiert und weitere Fehler behoben.\n\nViel Spa\u00DF mit Tegnas! \uD83D\uDC9C",
+      "status": "Neu",
+      "updatedAt": "2026-11-07T19:41:29.7966343+00:00"
+    },
+    {
       "id": "8c695c92de6340fcaa58370fe3f031b3",
       "title": "\uD83D\uDE80 Tegnas Launcher \u2013 Aktuell",
       "body": "\u2728 Neues Glossy-Design f\u00FCr MSG-Chat, HUD, Hotbar und Men\u00FCs.\n\n\uD83C\uDFA8 Modernisierte Oberfl\u00E4che mit weicheren Rundungen und \u00FCberarbeiteten Einstellungen.\n\n\u2601\uFE0F Cloud-Synchronisierung f\u00FCr Profilbilder und Banner inklusive Bildausschnitt.\n\n\uD83D\uDD04 Verbessertes Update-Fenster mit direkter \u00C4nderungs\u00FCbersicht.\n\n\uD83D\uDC64 Profilverwaltung verbessert mit Kontobest\u00E4tigung und deutlicheren Fehlermeldungen.\n\n\uD83D\uDEE0\uFE0F OneDrive-Schlie\u00DFproblem \u00FCberarbeitet: Cloud-Vorg\u00E4nge werden beim Schlie\u00DFen abgebrochen und aufger\u00E4umt.",
