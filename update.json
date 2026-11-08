@@ -1,6 +1,6 @@
 {
-  "version": "1.1.50",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.50-beta/TegnasLauncher.exe",
-  "sha256": "BD8D8350F7E2CE54C7EAE87837588915C972369BCAEB8820326E4D79BD8863D4",
-  "notes": "Zuverl\u00E4ssigere Java-Vorbereitung beim Spielstart\n- Fehlgeschlagene Java-Downloads werden automatisch wiederholt.\n- Falls die erste Quelle nicht erreichbar ist, nutzt der Launcher alternativ Microsoft OpenJDK.\n- Heruntergeladene Pakete werden vor der \u00DCbernahme auf Vollst\u00E4ndigkeit und passende Java-Version gepr\u00FCft.\n- Fortschrittsanzeigen und Fehlermeldungen wurden verst\u00E4ndlicher gestaltet."
+  "version": "1.1.51",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.51-beta/TegnasLauncher.exe",
+  "sha256": "4FDF711B3354A2E6BE91354D97A5108D53DF54507E087E7EE9B278A04493632C",
+  "notes": "Tegnas Launcher v1.1.51-beta \u2013 Update-Downloads verbessert\n- Automatische Wiederholungsversuche bei vor\u00FCbergehenden Downloadfehlern wie \u201E504 Gateway Time-out\u201C.\n- Unvollst\u00E4ndige Downloads werden erkannt und verworfen.\n- Die SHA-256-Pr\u00FCfung kontrolliert weiterhin die heruntergeladene Installationsdatei.\n- Eigene Update-Protokolle erleichtern die Fehlersuche. Bei einem Fehler wird der Speicherort angezeigt."
 }
