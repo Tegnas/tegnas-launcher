@@ -1,6 +1,6 @@
 {
-  "version": "1.1.49",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.49-beta/TegnasLauncher.exe",
-  "sha256": "6283AD1DFE2D9042999C3DA0F0D2C3080C5A385649225B9D0AE6776F4841200D",
-  "notes": "\u2728 Neue Funktionen\n\nHauptchat mit einstellbarer Hintergrundfarbe und Transparenz.\n\nHauptchat im HUD-Editor frei verschiebbar, inklusive Eingabe und Suche.\n\nMod-Versionen gezielt wechseln und vor automatischen Updates sch\u00FCtzen.\n\nVerbesserte Verwaltung installierter Mod-Versionen.\n\n\uD83C\uDFA8 Verbesserungen\n\nGr\u00F6\u00DFeres Glossy-Launcher-Logo f\u00FCr die Windows-Taskleiste.\n\nLila Rahmen am \u201EZeit zu Zocken\u201C-Banner entfernt.\n\nClient-Startmen\u00FC aufger\u00E4umt und \u201EPowered by Tegnas\u201C entfernt.\n\nWeitere optische Anpassungen und Optimierungen.\n\n\uD83D\uDD27 Fehlerbehebungen\n\nSpielen-/Stoppen-Button aktualisiert sich wieder sofort nach dem Beenden von Minecraft.\n\nAlte Mod-Dateien werden beim Versionswechsel korrekt ersetzt, statt doppelt installiert zu bleiben.\n\nKleinere Fehlerkorrekturen und Stabilit\u00E4tsverbesserungen.\n\n\uD83C\uDFAE Unterst\u00FCtzte Minecraft-Versionen\n\n1.21.8 \u00B7 1.21.10 \u00B7 1.21.11 \u00B7 26.3\n\nVielen Dank, dass ihr den Tegnas Launcher nutzt! \uD83D\uDC9C"
+  "version": "1.1.50",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.50-beta/TegnasLauncher.exe",
+  "sha256": "BD8D8350F7E2CE54C7EAE87837588915C972369BCAEB8820326E4D79BD8863D4",
+  "notes": "Zuverl\u00E4ssigere Java-Vorbereitung beim Spielstart\n- Fehlgeschlagene Java-Downloads werden automatisch wiederholt.\n- Falls die erste Quelle nicht erreichbar ist, nutzt der Launcher alternativ Microsoft OpenJDK.\n- Heruntergeladene Pakete werden vor der \u00DCbernahme auf Vollst\u00E4ndigkeit und passende Java-Version gepr\u00FCft.\n- Fortschrittsanzeigen und Fehlermeldungen wurden verst\u00E4ndlicher gestaltet."
 }
