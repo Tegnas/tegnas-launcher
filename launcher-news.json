@@ -2,6 +2,13 @@
   "schema": 1,
   "items": [
     {
+      "id": "release-v1.1.54-beta",
+      "title": "Tegnas Launcher v1.1.54-beta ist da",
+      "body": "\uD83D\uDE80 **Tegnas Launcher v1.1.54-beta ist da!**\n\n\uD83D\uDEE0\uFE0F **Mod-Pr\u00FCfung erfolgreich repariert!**\n\nMinecraft startet jetzt wieder zuverl\u00E4ssig, ohne durch eine fehlerhafte Mod-Pr\u00FCfung blockiert zu werden.\n\n\u2705 Fehlerhafte Startblockaden behoben  \n\u2705 Fabric-Kompatibilit\u00E4t verbessert  \n\u2705 Spielstart erfolgreich getestet\n\n\uD83D\uDC9C **Jetzt aktualisieren und loszocken!**",
+      "status": "Neu",
+      "updatedAt": "2026-11-13T18:31:55.9626447+00:00"
+    },
+    {
       "id": "release-v1.1.53-beta",
       "title": "Tegnas Launcher v1.1.53-beta ist da",
       "body": "Die neue Beta bringt Unterst\u00FCtzung f\u00FCr kleinere Update-Downloads, eine Sicherung mit Wiederherstellung des Launchers und eine Modpr\u00FCfung vor Fabric-Spielstarts. Diese erkennt unter anderem doppelte Mods, fehlende Abh\u00E4ngigkeiten und besch\u00E4digte Dateien.",
