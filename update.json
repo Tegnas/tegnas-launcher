@@ -1,6 +1,6 @@
 {
-  "version": "1.1.51",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.51-beta/TegnasLauncher.exe",
-  "sha256": "4FDF711B3354A2E6BE91354D97A5108D53DF54507E087E7EE9B278A04493632C",
-  "notes": "Tegnas Launcher v1.1.51-beta \u2013 Update-Downloads verbessert\n- Automatische Wiederholungsversuche bei vor\u00FCbergehenden Downloadfehlern wie \u201E504 Gateway Time-out\u201C.\n- Unvollst\u00E4ndige Downloads werden erkannt und verworfen.\n- Die SHA-256-Pr\u00FCfung kontrolliert weiterhin die heruntergeladene Installationsdatei.\n- Eigene Update-Protokolle erleichtern die Fehlersuche. Bei einem Fehler wird der Speicherort angezeigt."
+  "version": "1.1.53",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.53-beta/TegnasLauncher.exe",
+  "sha256": "7C5285AD53D2FE849AD0B8128B0C8E1EF52EC6693D496A5C55FAD61A47FEB5E0",
+  "notes": "Neu\n- Kompakte Updates \u2013 Der Launcher kann passende Updatepakete mit ge\u00E4nderten Dateien herunterladen. Downloadgr\u00F6\u00DFe und Fortschritt werden angezeigt.\n- Launcher wiederherstellen \u2013 Vor einem Launcher-Update wird der bisherige Programmstand gesichert. Im Bereich \u201EUpdates\u201C l\u00E4sst sich die Wiederherstellung starten.\n- Modpr\u00FCfung vor dem Spielstart \u2013 Bei Fabric-Profilen pr\u00FCft der Launcher auf doppelte Mods, fehlende Pflichtabh\u00E4ngigkeiten, besch\u00E4digte JAR-Dateien und erkennbare Versionskonflikte. Fehlermeldungen nennen die betroffenen Dateien."
 }
