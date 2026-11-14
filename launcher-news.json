@@ -14,13 +14,6 @@
       "body": "Der Launcher wiederholt fehlgeschlagene Java-Downloads jetzt automatisch und nutzt bei Bedarf eine alternative Quelle. Das hilft bei Startproblemen durch Fehler wie \u201E504 \u2013 Gateway Time-out\u201C.",
       "status": "Neu",
       "updatedAt": "2026-11-08T09:12:57.9531213+00:00"
-    },
-    {
-      "id": "release-v1.1.49-beta",
-      "title": "\uD83D\uDE80 Tegnas Launcher \u2013 Neues Beta-Update!",
-      "body": "\u2728 Hauptchat jetzt mit anpassbarem Hintergrund und frei verschiebbar im HUD-Editor.\n\n\uD83E\uDDE9 Mod-Versionen k\u00F6nnen gezielt gewechselt und vor Updates gesch\u00FCtzt werden.\n\n\uD83C\uDFA8 \u00DCberarbeitete Oberfl\u00E4che mit verbessertem Glossy-Design.\n\n\uD83D\uDD27 Spielen-/Stoppen-Button korrigiert und weitere Fehler behoben.\n\nViel Spa\u00DF mit Tegnas! \uD83D\uDC9C",
-      "status": "Neu",
-      "updatedAt": "2026-11-07T19:41:29.7966343+00:00"
     }
   ]
 }
