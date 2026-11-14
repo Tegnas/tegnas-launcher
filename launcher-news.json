@@ -21,13 +21,6 @@
       "body": "\u2728 Hauptchat jetzt mit anpassbarem Hintergrund und frei verschiebbar im HUD-Editor.\n\n\uD83E\uDDE9 Mod-Versionen k\u00F6nnen gezielt gewechselt und vor Updates gesch\u00FCtzt werden.\n\n\uD83C\uDFA8 \u00DCberarbeitete Oberfl\u00E4che mit verbessertem Glossy-Design.\n\n\uD83D\uDD27 Spielen-/Stoppen-Button korrigiert und weitere Fehler behoben.\n\nViel Spa\u00DF mit Tegnas! \uD83D\uDC9C",
       "status": "Neu",
       "updatedAt": "2026-11-07T19:41:29.7966343+00:00"
-    },
-    {
-      "id": "e8e7e9d1ce4740399d7ea3c1d364b5fe",
-      "title": "Cloud-Synchronisierung \u2013 Fortschritt besser sichtbar",
-      "body": "Nach 100 % Download ist noch etwas zu tun: Dateien pr\u00FCfen, vorbereiten und ins Profil \u00FCbernehmen. Daf\u00FCr gibt es jetzt ein eigenes Statusfenster mit Laufzeit und Dateifortschritt. So seht ihr, woran der Launcher gerade arbeitet und wann das Profil wirklich fertig ist.\n\nDie Cloud-Synchronisierung bleibt vorerst in der Beta. R\u00FCckmeldungen zum Abgleich zwischen PC und Laptop sind willkommen!",
-      "status": "Erledigt",
-      "updatedAt": "2026-11-07T08:34:06.057131+00:00"
     }
   ]
 }
