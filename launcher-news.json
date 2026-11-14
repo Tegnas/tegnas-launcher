@@ -1,12 +1,4 @@
 {
   "schema": 1,
-  "items": [
-    {
-      "id": "release-v1.1.53-beta",
-      "title": "Tegnas Launcher v1.1.53-beta ist da",
-      "body": "Die neue Beta bringt Unterst\u00FCtzung f\u00FCr kleinere Update-Downloads, eine Sicherung mit Wiederherstellung des Launchers und eine Modpr\u00FCfung vor Fabric-Spielstarts. Diese erkennt unter anderem doppelte Mods, fehlende Abh\u00E4ngigkeiten und besch\u00E4digte Dateien.",
-      "status": "Neu",
-      "updatedAt": "2026-11-13T14:49:29.6095869+00:00"
-    }
-  ]
+  "items": []
 }
