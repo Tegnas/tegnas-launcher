@@ -2,6 +2,13 @@
   "schema": 1,
   "items": [
     {
+      "id": "release-v1.1.74-beta",
+      "title": "Tegnas Launcher v1.1.74-beta  \u26A0\uFE0FWichtiger Sicherheitshinweis\u26A0\uFE0F",
+      "body": "\u26A0\uFE0F Bitte aktualisiere den Tegnas Launcher auf v1.1.74-beta.\n\nSchlie\u00DFe alle laufenden Minecraft-Sitzungen, installiere das Launcher-Update und starte dein Profil neu. Der Launcher gleicht die Minecraft-Versionsdaten mit Mojang ab und l\u00E4dt ben\u00F6tigte Bibliotheken nach. Warte mit dem Serverbeitritt, bis die Pr\u00FCfung erfolgreich abgeschlossen ist.",
+      "status": "Neu",
+      "updatedAt": "2026-11-24T20:48:14.7328463+00:00"
+    },
+    {
       "id": "release-v1.1.73-beta",
       "title": "Tegnas Launcher v1.1.73-beta ist da",
       "body": "\uD83D\uDE80 **Tegnas Launcher v1.1.73-beta**\n\n\uD83C\uDFA8 **Werbungs-Studio komplett \u00FCberarbeitet!**\n\nErstelle bunte Werbung mit neuen Farbeffekten, speichere deine Vorlagen und sieh das Ergebnis direkt in der Live-Vorschau. Mit frei belegbarem Tastenk\u00FCrzel, automatischem Versand und Unterst\u00FCtzung f\u00FCr den Handelschat.\n\n\uD83D\uDCAC **MSG-Chat verbessert:** Nachrichten aus dem 30-Tage-Verlauf lassen sich jetzt markieren und kopieren.\n\n\uD83D\uDD27 Zus\u00E4tzlich wurden der Client-Build verbessert und Fehler im Updater behoben.\n\n\uD83D\uDC9C Viel Spa\u00DF mit Tegnas!",
