@@ -2,6 +2,13 @@
   "schema": 1,
   "items": [
     {
+      "id": "release-v1.1.81-beta",
+      "title": "Tegnas Launcher v1.1.81-beta ist da",
+      "body": "Im Tegnas Launcher v1.1.81-beta kannst du f\u00FCr Minecraft 26.3 zwei Werbevorlagen gemeinsam aktivieren und alle 10 bis 20 Minuten abwechselnd senden lassen. Die Vorschau zeigt, wie viel vom 256-Zeichen-Limit deine Nachricht inklusive Farbcodes und Handelschat-Pr\u00E4fix belegt. Beim ersten Serverbeitritt erinnert dich auf Wunsch der MSG-Reiter \u201EWerbung\u201C.",
+      "status": "Neu",
+      "updatedAt": "2026-11-26T21:55:59.2834821+00:00"
+    },
+    {
       "id": "release-v1.1.74-beta",
       "title": "Tegnas Launcher v1.1.74-beta  \u26A0\uFE0FWichtiger Sicherheitshinweis\u26A0\uFE0F",
       "body": "\u26A0\uFE0F Bitte aktualisiere den Tegnas Launcher auf v1.1.74-beta.\n\nSchlie\u00DFe alle laufenden Minecraft-Sitzungen, installiere das Launcher-Update und starte dein Profil neu. Der Launcher gleicht die Minecraft-Versionsdaten mit Mojang ab und l\u00E4dt ben\u00F6tigte Bibliotheken nach. Warte mit dem Serverbeitritt, bis die Pr\u00FCfung erfolgreich abgeschlossen ist.",
