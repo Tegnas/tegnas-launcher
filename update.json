@@ -1,7 +1,7 @@
 {
-  "version": "1.1.74",
-  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.74-beta/TegnasLauncher.exe",
-  "sha256": "A72841BB80ECCD6229D62093036C222D2EB540BDA0643FC2843B489D99ABD32C",
-  "notes": "Sicherheitsupdate f\u00FCr Minecraft Java Edition. Bitte beendet alle laufenden Minecraft-Sitzungen, aktualisiert den Tegnas Launcher auf v1.1.74-beta und startet euer Profil neu.\n- Der Launcher gleicht die Minecraft-Versionsdaten vor dem Start mit dem offiziellen Mojang-Manifest ab und ersetzt veraltete Versionsdateien nach Pr\u00FCfung der Pr\u00FCfsumme.\n- Ben\u00F6tigte Spielbibliotheken werden f\u00FCr Vanilla und Fabric gepr\u00FCft und bei Bedarf nachgeladen. Das gilt auch beim Schnellwechsel.\n- Der Spielstart ben\u00F6tigt eine Verbindung zu Mojang. Schl\u00E4gt der Abgleich fehl, bricht der Launcher den Start ab.",
-  "fileManifestUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.74-beta/release-files.json"
+  "version": "1.1.81",
+  "installerUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.81-beta/TegnasLauncher.exe",
+  "sha256": "BC4E8057157386956946AF73D8DE6C7FE96941BF0690786C79E391C12FA71EE1",
+  "notes": "Das Werbungs-Studio f\u00FCr Minecraft 26.3 kann jetzt zwei gespeicherte Vorlagen abwechselnd senden. W\u00E4hle beide Anzeigen in den Sendeoptionen, stelle 10 bis 20 Minuten Abstand zwischen den Nachrichten ein und aktiviere beide mit einem Schalter.\n- 256 Zeichen pro Nachricht. Die Vorschau z\u00E4hlt Farbcodes und das $-Pr\u00E4fix f\u00FCr den Handelschat mit. Farbstile reduzieren bei Bedarf die Farbwechsel, damit der Text ins Limit passt.\n- Werbeerinnerung beim Serverbeitritt. Beim ersten Mehrspielerbeitritt nach dem Minecraft-Start erscheint der lokale MSG-Reiter \u201EWerbung\u201C mit dem Hinweis \u201EWerbung nicht vergessen!\u201C. Die Erinnerung ist abschaltbar. Im Kopf des Reiters steht \u201EMSG an mich\u201C.\n- Leere Vorlagenliste bei neuen Profilen. Das Werbungs-Studio enth\u00E4lt keinen vorgegebenen Werbetext mehr. Bereits gespeicherte Vorlagen bleiben erhalten.",
+  "fileManifestUrl": "https://github.com/Tegnas/tegnas-launcher/releases/download/v1.1.81-beta/release-files.json"
 }
